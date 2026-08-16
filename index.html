@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PlsHub Script - Roblox Script Hub</title>
+    <title>PlsHub Script - Custom Edition</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- FontAwesome icon -->
@@ -49,9 +49,9 @@
         <h1>PlsHub Script</h1>
         <p class="subtitle">Select a game to get the script — copy with one click, paste into your executor.</p>
 
-        <!-- Blox Fruits -->
+        <!-- Mục 1: Blox Fruits -->
         <div class="card">
-            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1000&auto=format&fit=crop" alt="Blox Fruits" class="card-img">
+            <img src="bloxfruits.jpg" alt="Blox Fruits" class="card-img">
             <div class="card-content">
                 <span class="card-badge">Adventure</span>
                 <h2 class="card-title">Blox Fruits</h2>
@@ -60,20 +60,20 @@
             </div>
         </div>
 
-        <!-- X100 Luck -->
+        <!-- Mục 2: X100 Luck (Dragon) -->
         <div class="card">
-            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1000&auto=format&fit=crop" alt="X100 Luck" class="card-img">
+            <img src="dragon.jpg" alt="X100 Luck Dragon" class="card-img">
             <div class="card-content">
                 <span class="card-badge">Buff Luck</span>
                 <h2 class="card-title">X100 Luck (Dragon)</h2>
-                <p class="card-desc">Buff Luck Script • Boost your luck multiplier instantly.</p>
+                <p class="card-desc">Buff Luck Script • Boost your luck multiplier instantly with Dragon power.</p>
                 <button class="btn-get" onclick="openModal('X100 Luck', 'loadstring(game:HttpGet(\'https://raw.githubusercontent.com/ScriptPrime/X100Lucky-Buff_Luck-Dragon/refs/heads/main/Lua\'))()')">Get Script</button>
             </div>
         </div>
 
-        <!-- Premiums Gex Hub -->
+        <!-- Mục 3: Premiums Gex Hub -->
         <div class="card">
-            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop" alt="Premiums" class="card-img">
+            <img src="gexhub.jpg" alt="Premiums Gex Hub" class="card-img">
             <div class="card-content">
                 <span class="card-badge">Premiums</span>
                 <h2 class="card-title">Gex Hub (Premiums)</h2>
@@ -88,7 +88,7 @@
         <div class="modal">
             <div class="modal-header">
                 <div class="modal-title-wrap">
-                    <i class="fa-solid fa-cat"></i>
+                    <i class="fa-solid fa-dragon"></i>
                     <span class="modal-title" id="modalGameTitle">PlsHub Script</span>
                 </div>
                 <button class="btn-close" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
@@ -123,4 +123,3 @@
     </script>
 </body>
 </html>
-
